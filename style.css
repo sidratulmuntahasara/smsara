@@ -263,6 +263,12 @@ p {
 	animation-delay: 2.5s;
 }
 
+@media only screen and (max-width: 767px) { 
+	body { 
+		background-image: url(images/background-photo-mobile-devices.jpg); 
+	} 
+}
+
 /* End Hero Section */
 
 /* Services Section */
@@ -457,7 +463,6 @@ p {
 #about .col-right h1{
   color: #fff;
 }
-
 #about .col-right h2 {
   color: #fff;
 	font-size: 1.8rem;
@@ -497,7 +502,6 @@ p {
  color: #fff;
  text-align: center;
 }
-
 
 /* contact Section */
 #contact .contact {
@@ -769,10 +773,14 @@ p {
 	/* End contact  */
 
 	/* Work */
-	.works{
-		align-items: center;
-		display: flex;
+	.work{
+		flex-direction: row;
 		justify-content: center;
+		align-items: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
 /* End Media Query For Tablet */
