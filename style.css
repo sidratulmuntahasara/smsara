@@ -767,6 +767,12 @@ p {
 		color: white;
 	  }
 	/* End contact  */
+
+	/* Work */
+	.works{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
 }
 /* End Media Query For Tablet */
 
